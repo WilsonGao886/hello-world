@@ -1,0 +1,23 @@
+anas vim alias
+
+cd \I*: Ls: pwd history"
+
+alias pdf evince
+
+Ls -t grep wc -L
+
+alias Ls -L I grep"d"| wc-1
+
+alias dxpx du-sh* I sort -n
+
+du-h--max-depth=l
+
+alias atvs git describe --abbrev=0 --tags
+
+alias tagtime0 git Log --tags --simplify-by-decoration--pretty="format: ci d"
+
+alias tagtime2 git for-each-ref--sort=taggerdate--format"(rename)(taggerdate)""
+
+git remote show origin git status -s
+
+alias cd alias xx
