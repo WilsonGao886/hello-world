@@ -42,6 +42,11 @@ set nu
 set cursorline
 set cursorcolumn
 set textwidth=0
+set fuifont=Courier\ New:h10
+set lines=35 columns=118
+winpos 300 0
+set guifont=Courier_new:h14
+solorscheme desert
 
 :let w:i=0
 function LsI()
