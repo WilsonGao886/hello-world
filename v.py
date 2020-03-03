@@ -61,40 +61,52 @@
 ## create the square of 1 to 10 ;   1 4 9 16 25 ... 100]
 #print(squares)
 # exercise #
-for value in range(1,21):
-    print(value)
-numbers = list(range(1,1000001))
-#print(numbers)
-print(min(numbers))
-print(max(numbers))
-print(sum(numbers))
-odd_numbers = list(range(1,21,2))
-for odd_number in odd_numbers:
-    print(odd_number)
-print("\n")
-numbers_plus3 = list(range(3,30,3))
-for number in numbers_plus3:
-    print(number)
-print("\n")
-cubes = [value**3 for value in range(1,11)]
-print(cubes)
-for cube in cubes:
-    print(cube)
-print("\n")
-numbers_plus3 = list(range(3,30,3))
-print("The first three iterms in the list are:")
-print(numbers_plus3[:3])
-print("\n")
-number=len(numbers_plus3)
-print("amount is "+str(number))
-print("average is "+str(number/2))
-print("round is "+str(round(number/2)))
-print("The middle three iterms in the list are:")
-print(numbers_plus3[round(number/2)-1:round(number/2)+2])
-print("\n")
-print("The last three iterms in the list are:")
-print(numbers_plus3[-3:])
-print("\n")
+#for value in range(1,21):
+#    print(value)
+#numbers = list(range(1,1000001))
+##print(numbers)
+#print(min(numbers))
+#print(max(numbers))
+#print(sum(numbers))
+#odd_numbers = list(range(1,21,2))
+#for odd_number in odd_numbers:
+#    print(odd_number)
+#print("\n")
+#numbers_plus3 = list(range(3,30,3))
+#for number in numbers_plus3:
+#    print(number)
+#print("\n")
+#cubes = [value**3 for value in range(1,11)]
+#print(cubes)
+#for cube in cubes:
+#    print(cube)
+#print("\n")
+#numbers_plus3 = list(range(3,30,3))
+#print("The first three iterms in the list are:")
+#print(numbers_plus3[:3])
+#print("\n")
+#number=len(numbers_plus3)
+#print("amount is "+str(number))
+#print("average is "+str(number/2))
+#print("round is "+str(round(number/2)))
+#print("The middle three iterms in the list are:")
+#print(numbers_plus3[round(number/2)-1:round(number/2)+2])
+#print("\n")
+#print("The last three iterms in the list are:")
+#print(numbers_plus3[-3:])
+#print("\n")
+
+#_________________Fifth charpter __________________#
+cars = ['audi','bmw','subaru','toyota']
+for car in cars:
+    if car == 'bmw':
+        print(car.upper())
+    else:
+        print(car.title())
+
+
+
+
 
     
 
